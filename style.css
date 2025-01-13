@@ -1,0 +1,129 @@
+.head{
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid hsla(0, 0%, 50%, .411);
+    display: flex
+;
+    justify-content: space-between;
+    padding: 5px 15 px;
+}
+.head .left {
+    cursor: pointer;
+    font-family: Jacques Francois;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #00000080;
+}
+.product {
+    align-items: center;
+    display: flex
+;
+    gap: 20px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    justify-content: center;
+    margin: 20px auto;
+    width: 100%;
+}
+.img {
+    align-items: center;
+    align-self: flex-start;
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+    width: 50%;
+}
+.small-img {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+}
+.img .small-img img {
+    border: 1px solid #000;
+    height: 100px;
+    width: 100px;
+}
+.img .big-img {
+    height: 440px;
+    width: 70%;
+}
+.img .big-img img {
+    border: 1px solid rgba(0, 0, 0, .445);
+    height: 100%;
+    width: 100%;
+}
+main .content {
+    align-self: flex-start;
+    padding: 10px 0;
+    width: 50%;
+}
+.content .title {
+    font-size: 24px;
+    font-style: Inter;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.content .price {
+    display: flex;
+    gap: 20px;
+    line-height: 40px;
+}
+.content .price span{
+    font-size: 20px;
+    font-weight: 900;
+}
+.content p {
+    font-family: sans-serif;
+    margin: 20px 0;
+    max-width: 300px;
+    text-align: justify;
+}
+.content .size {
+    display: flex
+;
+    gap: 5px;
+    margin: 10px auto;
+}
+.content .btn {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 700;
+    gap: 15px;
+    margin: 20px 0;
+    width: 400px;
+
+}
+.btn input{
+    padding: 5px;
+}
+
+.content .share {
+    align-self: flex-start;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+
+}
+.share i{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+i:hover{
+    background: #cfb5e3;
+    opacity: 2.3;
+    transform: scale(1.5);
+}
+.btn input:hover{
+    background: #cfb5e3;
+    opacity: 2.3;
+
+}
+
+
+
+
